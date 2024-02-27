@@ -11,6 +11,6 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/PedroRoca7/Network.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '13.4'
-  s.source_files = 'Network/**/*.swift'
+  s.source_files = 'Network/Classes/**/*.swift'
 
 end
